@@ -1,50 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Pessoal de Captação e Triagem | Para profissionais que vivem de indicação</title>
+    <meta name="description" content="Seja encontrado e contratado por quem já procura pelo seu serviço, sem depender de favores de terceiros e sem se expor em redes sociais.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,400;1,500&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    <title>Accordion</title>
 </head>
 
 <body>
-    <div class="accordion">
-        <div class="panel">
-            <div class="label">Panel-1</div>
-            <div class="acc-content">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure itaque possimus natus iste provident consequatur cupiditate eius aut quibusdam doloribus sapiente, deserunt est? Necessitatibus voluptatum possimus laborum blanditiis quas
-                    culpa.
-                </p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="label">Panel-2</div>
-            <div class="acc-content">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure itaque possimus natus iste provident consequatur cupiditate eius aut quibusdam doloribus sapiente, deserunt est? Necessitatibus voluptatum possimus laborum blanditiis quas
-                    culpa.
-                </p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="label">Panel-3</div>
-            <div class="acc-content">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure itaque possimus natus iste provident consequatur cupiditate eius aut quibusdam doloribus sapiente, deserunt est? Necessitatibus voluptatum possimus laborum blanditiis quas
-                    culpa.
-                </p>
-            </div>
-        </div>
-    </div>
+    <!--
+        ANTES DE PUBLICAR:
+        1. Troque 5500000000000 pelo WhatsApp de atendimento (DDI + DDD + número) em todos os links wa.me.
+        2. Substitua o bloco "proof-placeholder" pelo print real do Google PageSpeed Insights (98/100).
+        3. Os depoimentos são o texto do roteiro. Use apenas depoimentos reais, com autorização de quem os deu.
+    -->
 
-    <script>
-        const accordion = document.getElementsByClassName("panel");
-        for (i = 0; i < accordion.length; i++) {
-            accordion[i].addEventListener('click', function() {
-                this.classList.toggle('active');
-            });
-        }
-    </script>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#topo">Estrutura Pessoal</a>
+            <nav class="site-nav" aria-label="Seções da página">
+                <a href="#metodo">Como funciona</a>
+                <a href="#investimento">Investimento</a>
+                <a href="#duvidas">Dúvidas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="topo">
+
+        <!-- 1. Headline e subheadline -->
+        <section class="hero" aria-labelledby="hero-titulo">
+            <div class="container narrow">
+                <span class="eyebrow">Para profissionais liberais</span>
+                <h1 id="hero-titulo">
+                    Como ser encontrado e contratado por quem <em>já procura</em> pelo seu serviço
+                    <span class="h1-sub">— sem depender de favores de terceiros, sem se expor em redes sociais e sem fazer papel de vendedor chato.</span>
+                </h1>
+                <p class="lead">Para médicos, advogados, psicólogos, arquitetos e consultores que entregam um trabalho técnico impecável, mas vivem na instabilidade do boca a boca e não têm o perfil de fazer dancinhas ou forçar intimidade na internet.</p>
+                <p class="note"><strong>Não é para</strong> quem busca fórmulas mágicas de dinheiro rápido ou quer criar conteúdos virais.</p>
+                <div class="cta-row">
+                    <a class="btn btn-primary" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20conversar%20sobre%20a%20minha%20p%C3%A1gina." >Conversar sobre minha página</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Dor -->
+        <section class="section section--white" aria-labelledby="dor-titulo">
+            <div class="container">
+                <span class="eyebrow">Sua rotina</span>
+                <h2 class="section-title" id="dor-titulo">Você estudou anos, entrega excelência e seus clientes atuais <em>adoram seu trabalho.</em></h2>
+                <p class="section-lead">Mesmo assim, o seu fluxo de caixa vive uma montanha-russa invisível:</p>
+                <ul class="pain-grid">
+                    <li class="pain-item">Um mês com a agenda cheia seguido por semanas de silêncio e apreensão.</li>
+                    <li class="pain-item">O desconforto silencioso de ter que torcer para que ex-clientes lembrem de indicar você.</li>
+                    <li class="pain-item">A frustração de ver profissionais muito menos qualificados cobrando o dobro, simplesmente porque têm uma vitrine digital melhor.</li>
+                    <li class="pain-item">A sensação de culpa de cobrar o que é justo ou a aversão de parecer ‘mercantilista’ ao tentar prospectar.</li>
+                </ul>
+
+                <!-- Prova social: perto do topo, abaixo da dor -->
+                <figure class="testimonial">
+                    <blockquote>
+                        <p>“O que mais me aliviou foi parar de receber mensagens de curiosos perguntando apenas ‘quanto custa?’. As pessoas agora chamam já sabendo como trabalho.”</p>
+                    </blockquote>
+                    <figcaption>Profissional de saúde</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- 3. Apresentação da solução -->
+        <section class="section" aria-labelledby="solucao-titulo">
+            <div class="container split">
+                <div>
+                    <span class="eyebrow">A solução</span>
+                    <h2 class="section-title" id="solucao-titulo">Uma <em>Estrutura Pessoal</em> de Captação e Triagem</h2>
+                    <p>Não é um “site institucional” estático e nem uma promessa de que um software fará milagres por você.</p>
+                    <p>Trata-se de uma página de alta velocidade, focada no seu serviço principal, que faz o trabalho prévio que você não tem tempo nem paciência para fazer. Ela:</p>
+                    <ul class="checks">
+                        <li>Explica a complexidade do que você entrega</li>
+                        <li>Estabelece sua autoridade técnica</li>
+                        <li>Filtra curiosos de preço baixo</li>
+                    </ul>
+                    <p>Para que no seu WhatsApp chegue apenas quem já compreendeu o valor do seu atendimento.</p>
+                    <a class="btn btn-primary" href="#metodo">Ver como funciona a implantação</a>
+                </div>
+
+                <aside class="flow" aria-label="Como a página filtra os contatos">
+                    <div class="flow-step">
+                        <span class="flow-index">1</span>
+                        <div>
+                            <strong>Chega à página</strong>
+                            <span>Quem já procura pelo seu serviço</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-index">2</span>
+                        <div>
+                            <strong>Entende o seu método</strong>
+                            <span>Complexidade, autoridade técnica e valor do atendimento</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-index">3</span>
+                        <div>
+                            <strong>Chama no WhatsApp</strong>
+                            <span>Já sabendo como você trabalha</span>
+                        </div>
+                    </div>
+                    <p class="flow-note">Curiosos de preço baixo ficam pelo caminho.</p>
+                </aside>
+            </div>
+        </section>
+
+        <!-- 4. Método e prova social de velocidade -->
+        <section class="section section--dark" id="metodo" aria-labelledby="metodo-titulo">
+            <div class="container">
+                <span class="eyebrow">Como funciona</span>
+                <h2 class="section-title" id="metodo-titulo">Um processo de implantação em 3 etapas, com <em>esforço operacional quase zero</em> da sua parte.</h2>
+
+                <ol class="steps">
+                    <li class="step">
+                        <span class="step-num">01</span>
+                        <h3>Entrevista única de 40 minutos</h3>
+                        <p>Conversamos de forma gravada para eu extrair o seu método, diferenciais e as dúvidas mais frequentes dos seus clientes. Você não precisa escrever nenhum texto.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step-num">02</span>
+                        <h3>Engenharia de texto e interface</h3>
+                        <p>Eu redijo toda a argumentação técnica, desenho o layout sóbrio e configuro a infraestrutura (carregamento em menos de 2s no celular).</p>
+                    </li>
+                    <li class="step">
+                        <span class="step-num">03</span>
+                        <h3>Publicação e conexão</h3>
+                        <p>Entrego tudo funcionando no seu domínio próprio (.com.br), integrado com Google Meu Negócio e direcionado direto para o seu WhatsApp de atendimento.</p>
+                    </li>
+                </ol>
+
+                <figure class="proof">
+                    <!-- TROCAR este bloco pelo print real do Google PageSpeed Insights (98/100) -->
+                    <div class="proof-placeholder">Espaço para o print do Google PageSpeed Insights (98/100)</div>
+                    <figcaption>A página abre instantaneamente no 4G e no 5G.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- 5. Oferta, preço e bônus -->
+        <section class="section" id="investimento" aria-labelledby="oferta-titulo">
+            <div class="container offer">
+                <div>
+                    <span class="eyebrow">Investimento</span>
+                    <h2 class="section-title" id="oferta-titulo">Investimento único e <em>transparente</em></h2>
+
+                    <!-- Prova social: perto da oferta -->
+                    <figure class="testimonial">
+                        <blockquote>
+                            <p>“Eu tinha pavor de marketing digital porque achava apelativo. O resultado foi uma apresentação técnica e sóbria que me deu previsibilidade sem ferir minha ética profissional.”</p>
+                        </blockquote>
+                        <figcaption>Especialista em atendimento particular</figcaption>
+                    </figure>
+                </div>
+
+                <div class="price-card">
+                    <p class="price-label">Investimento único</p>
+                    <p class="price">R$ 2.500</p>
+                    <p class="price-installments">ou em até 3x sem juros</p>
+                    <ul class="checks">
+                        <li>Sem leilão de orçamento</li>
+                        <li>Sem surpresas no contrato</li>
+                        <li>Sem taxas escondidas</li>
+                    </ul>
+
+                    <h3 class="bonus-title">Bônus incluso</h3>
+                    <ul class="checks">
+                        <li>Configuração técnica do Google Perfil da Empresa (Google Meu Negócio), otimizada para buscas locais da sua especialidade na sua cidade.</li>
+                        <li>Script de triagem para a sua secretária ou WhatsApp, para acolher o lead com rapidez sem parecer agressivo.</li>
+                    </ul>
+
+                    <a class="btn btn-primary btn-block" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20estruturar%20minha%20presen%C3%A7a%20profissional." >Quero estruturar minha presença profissional</a>
+                    <p class="price-note">Se a página trouxer apenas 1 ou 2 clientes particulares ao longo de todo o ano, o investimento já se pagou por completo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Garantia -->
+        <section class="section section--white" aria-labelledby="garantia-titulo">
+            <div class="container narrow">
+                <div class="guarantee">
+                    <span class="eyebrow">Garantia</span>
+                    <h2 class="section-title" id="garantia-titulo">Garantia de Integridade e Revisão Alinhada</h2>
+                    <p>Você não assume o risco sozinho. Se o rascunho de texto e design apresentado não refletir com total fidelidade a seriedade e o padrão do seu serviço, nós ajustamos a estrutura até você ter 100% de orgulho de colocar o seu nome nela antes de ir ao ar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Quebra de objeções -->
+        <section class="section" id="duvidas" aria-labelledby="faq-titulo">
+            <div class="container narrow">
+                <span class="eyebrow">Dúvidas</span>
+                <h2 class="section-title" id="faq-titulo">Antes de decidir, <em>algumas dúvidas comuns</em></h2>
+
+                <div class="faq">
+                    <details>
+                        <summary>Tenho receio de parecer que estou forçando a barra ou sendo mercantilista.</summary>
+                        <p>Ter uma página limpa e objetiva não é vaidade nem autopromoção. É respeito por quem precisa do seu serviço. Quando alguém com um problema sério busca um especialista e só encontra perfis confusos ou links quebrados, essa pessoa acaba caindo na mão de quem grita mais alto na internet, e não de quem entrega o melhor resultado. Apresentar-se com clareza é um dever de quem domina o próprio ofício.</p>
+                    </details>
+                    <details>
+                        <summary>Não tenho tempo para produzir conteúdo ou alimentar site.</summary>
+                        <p>Essa estrutura não é um blog que exige postagens semanais. É uma página definitiva focada no seu serviço principal. Uma vez no ar, ela não exige manutenção diária de conteúdo.</p>
+                    </details>
+                    <details>
+                        <summary>E se eu não souber o que colocar no site?</summary>
+                        <p>Você não precisa saber. O meu trabalho é justamente extrair o que está na sua cabeça durante a nossa conversa inicial de 40 minutos e traduzir isso em uma página profissional.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CTA final -->
+        <section class="band" aria-labelledby="final-titulo">
+            <div class="container">
+                <h2 id="final-titulo">Você não precisa saber o que colocar no site.</h2>
+                <p>A conversa inicial de 40 minutos cuida disso.</p>
+                <a class="btn btn-light" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20iniciar%20a%20estrutura%C3%A7%C3%A3o%20da%20minha%20p%C3%A1gina.">Iniciar estruturação da página</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>Estrutura Pessoal de Captação e Triagem</span>
+            <span>© 2026</span>
+        </div>
+    </footer>
 
 </body>
 
